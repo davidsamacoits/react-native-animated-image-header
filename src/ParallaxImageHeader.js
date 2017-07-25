@@ -33,7 +33,7 @@ class ParallaxImageHeader extends Component {
   //
   // Render animated image
   //
-  _renderAnimatedImage = (imageTranslate, imageScale, imageBlur) => {
+  _renderAnimatedImage = (imageTranslate, imageScale) => {
     // Render animated image styles
     const animatedImageStyles = StyleSheet.create({
       backgroundImage: {
